@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ww/celery_linux_system_note/socket/TCP
+CMAKE_SOURCE_DIR = /home/ww/celery_linux_system_note/socket/TCP/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ww/celery_linux_system_note/socket/TCP/build
+CMAKE_BINARY_DIR = /home/ww/celery_linux_system_note/socket/TCP/server/build
 
 # Utility rule file for NightlyMemoryCheck.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlyMemoryCheck.dir/clean:
 .PHONY : CMakeFiles/NightlyMemoryCheck.dir/clean
 
 CMakeFiles/NightlyMemoryCheck.dir/depend:
-	cd /home/ww/celery_linux_system_note/socket/TCP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ww/celery_linux_system_note/socket/TCP /home/ww/celery_linux_system_note/socket/TCP /home/ww/celery_linux_system_note/socket/TCP/build /home/ww/celery_linux_system_note/socket/TCP/build /home/ww/celery_linux_system_note/socket/TCP/build/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ww/celery_linux_system_note/socket/TCP/server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ww/celery_linux_system_note/socket/TCP/server /home/ww/celery_linux_system_note/socket/TCP/server /home/ww/celery_linux_system_note/socket/TCP/server/build /home/ww/celery_linux_system_note/socket/TCP/server/build /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyMemoryCheck.dir/depend
 

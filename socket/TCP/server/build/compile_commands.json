@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/ww/celery_linux_system_note/socket/TCP/build",
-  "command": "/usr/bin/gcc   -g   -o CMakeFiles/TCP_test.dir/main.c.o   -c /home/ww/celery_linux_system_note/socket/TCP/main.c",
-  "file": "/home/ww/celery_linux_system_note/socket/TCP/main.c"
+  "directory": "/home/ww/celery_linux_system_note/socket/TCP/server/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/TCP_test.dir/main.c.o   -c /home/ww/celery_linux_system_note/socket/TCP/server/main.c",
+  "file": "/home/ww/celery_linux_system_note/socket/TCP/server/main.c"
 }
 ]

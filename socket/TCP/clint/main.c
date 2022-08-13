@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define SERVERPORT "2333"
+#define SERVERPORT "2223"
 
 void main(int argc, char** argv)
 {
@@ -17,7 +17,7 @@ void main(int argc, char** argv)
     int newfd;
     socklen_t addrlen;
 
-    char buf[] = "123456789";
+    char buf[10] = "123456789";
 
     socket_tcp = socket(AF_INET,SOCK_STREAM,0);
     if(socket_tcp < 0)
@@ -31,15 +31,15 @@ void main(int argc, char** argv)
     inet_pton(AF_INET, "192.168.155.199", &raddr.sin_addr);
 
     addrlen = sizeof(raddr);
-    newfd = connect(socket_tcp,(void*) &raddr,addrlen);
-    if(newfd <0)
+    
+    if(connect(socket_tcp,(void*) &raddr,addrlen) <0)
     {
         perror("connect:");
     };
     while(1)
     {
-        send(newfd, buf, sizeof(buf), 0);
-        sleep(2);
+        send(socket_tcp,buf,sizeof(buf), 0);
+        sleep(1);
     }
     
     return;

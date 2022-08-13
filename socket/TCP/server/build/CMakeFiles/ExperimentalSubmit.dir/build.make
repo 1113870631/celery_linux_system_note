@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ww/celery_linux_system_note/socket/TCP
+CMAKE_SOURCE_DIR = /home/ww/celery_linux_system_note/socket/TCP/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ww/celery_linux_system_note/socket/TCP/build
+CMAKE_BINARY_DIR = /home/ww/celery_linux_system_note/socket/TCP/server/build
 
 # Utility rule file for ExperimentalSubmit.
 
@@ -71,6 +71,6 @@ CMakeFiles/ExperimentalSubmit.dir/clean:
 .PHONY : CMakeFiles/ExperimentalSubmit.dir/clean
 
 CMakeFiles/ExperimentalSubmit.dir/depend:
-	cd /home/ww/celery_linux_system_note/socket/TCP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ww/celery_linux_system_note/socket/TCP /home/ww/celery_linux_system_note/socket/TCP /home/ww/celery_linux_system_note/socket/TCP/build /home/ww/celery_linux_system_note/socket/TCP/build /home/ww/celery_linux_system_note/socket/TCP/build/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ww/celery_linux_system_note/socket/TCP/server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ww/celery_linux_system_note/socket/TCP/server /home/ww/celery_linux_system_note/socket/TCP/server /home/ww/celery_linux_system_note/socket/TCP/server/build /home/ww/celery_linux_system_note/socket/TCP/server/build /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalSubmit.dir/depend
 

@@ -6,8 +6,9 @@
 #include <netinet/ip.h>
 #include <arpa/inet.h>
  #include <unistd.h>
+ #include <string.h>
 
-#define SERVERPORT "2333"
+#define SERVERPORT "2223"
 
 void main(int argc, char** argv) {
     
@@ -39,19 +40,23 @@ void main(int argc, char** argv) {
         exit(0);
     };
 
-    while(1){
-        int new_sockefd = accept(socket_tcp,(void *)&raddr,&addr_len);
-        if(new_sockefd < 0)
+    int new_sockefd = accept(socket_tcp,(void *)&raddr,&addr_len);
+            if(new_sockefd < 0)
         {
             perror("accept:");
             exit(0);
         }
 
-        while(recv(new_sockefd,buf,sizeof(buf),0))
+    while(1)
+    {
+       memset(buf,'\0',sizeof(buf));
+       int tmp = recv(new_sockefd,buf,sizeof(buf),0);
+        if(tmp < 0)
         {
-            printf("%s\n",buf);
-        };
-        close(new_sockefd);
+            printf("recv\n");
+            exit(0);
+        }
+       printf("%s\n",buf);
     }
 
   

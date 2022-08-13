@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ww/celery_linux_system_note/socket/TCP/main.c" "/home/ww/celery_linux_system_note/socket/TCP/build/CMakeFiles/TCP_test.dir/main.c.o"
+  "/home/ww/celery_linux_system_note/socket/TCP/server/main.c" "/home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/TCP_test.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

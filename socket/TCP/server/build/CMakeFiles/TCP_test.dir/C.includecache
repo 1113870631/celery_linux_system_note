@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ww/celery_linux_system_note/socket/TCP/main.c
+/home/ww/celery_linux_system_note/socket/TCP/server/main.c
 stdio.h
 -
 sys/types.h
@@ -22,5 +22,7 @@ netinet/ip.h
 arpa/inet.h
 -
 unistd.h
+-
+string.h
 -
 
