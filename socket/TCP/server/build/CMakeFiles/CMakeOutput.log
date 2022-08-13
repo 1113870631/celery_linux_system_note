@@ -631,3 +631,17 @@ make[1]: 离开目录“/home/ww/celery_linux_system_note/socket/TCP/server/buil
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa8f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa8f9.dir/build.make CMakeFiles/cmTC_fa8f9.dir/build
+make[1]: 进入目录“/home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fa8f9.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_fa8f9.dir/CheckIncludeFile.c.o   -c /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa8f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa8f9.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_fa8f9.dir/CheckIncludeFile.c.o  -o cmTC_fa8f9 
+make[1]: 离开目录“/home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp”
+
+

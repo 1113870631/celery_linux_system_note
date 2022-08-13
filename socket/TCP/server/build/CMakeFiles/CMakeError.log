@@ -1,0 +1,35 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a60af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a60af.dir/build.make CMakeFiles/cmTC_a60af.dir/build
+make[1]: 进入目录“/home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a60af.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_a60af.dir/CheckSymbolExists.c.o   -c /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a60af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a60af.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a60af.dir/CheckSymbolExists.c.o  -o cmTC_a60af 
+CMakeFiles/cmTC_a60af.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a60af.dir/build.make:97: recipe for target 'cmTC_a60af' failed
+make[1]: *** [cmTC_a60af] Error 1
+make[1]: 离开目录“/home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_a60af/fast' failed
+make: *** [cmTC_a60af/fast] Error 2
+
+File /home/ww/celery_linux_system_note/socket/TCP/server/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
