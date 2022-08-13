@@ -33,7 +33,7 @@ void main(int argc , char** argv) {
         printf("socket fail\n");
         exit(0);
      }
-     inet_pton(AF_INET, "127.0.0.1", &addr_r.sin_addr);
+     inet_pton(AF_INET, "192.168.155.199", &addr_r.sin_addr);
      addr_r.sin_family = AF_INET;
      addr_r.sin_port = (htons(atoi(SERVERPORT)));
 
