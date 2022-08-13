@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/UDP.dir/main.c.o  -o UDP 

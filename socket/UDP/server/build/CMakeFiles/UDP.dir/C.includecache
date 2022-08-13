@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ww/celery_linux_system_note/socket/UDP/server/main.c
+stdio.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+assert.h
+-
+netinet/in.h
+-
+netinet/ip.h
+-
+arpa/inet.h
+-
+stdlib.h
+-
+unistd.h
+-
+

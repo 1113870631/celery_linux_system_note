@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ww/celery_linux_system_note/code/core_test/main.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+relayer.h
+/home/ww/celery_linux_system_note/code/core_test/relayer.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
+/home/ww/celery_linux_system_note/code/core_test/relayer.c
+relayer.h
+/home/ww/celery_linux_system_note/code/core_test/relayer.h
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+errno.h
+-
+unistd.h
+-
+fcntl.h
+-
+
+/home/ww/celery_linux_system_note/code/core_test/relayer.h
+

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ww/celery_linux_system_note/code/relay/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/relay.dir/main.c.o   -c /home/ww/celery_linux_system_note/code/relay/main.c",
+  "file": "/home/ww/celery_linux_system_note/code/relay/main.c"
+}
+]

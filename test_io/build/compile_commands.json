@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ww/celery_linux_system_note/test_io/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/test_io.dir/main.c.o   -c /home/ww/celery_linux_system_note/test_io/main.c",
+  "file": "/home/ww/celery_linux_system_note/test_io/main.c"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/test_io.dir/main.c.o  -o test_io 

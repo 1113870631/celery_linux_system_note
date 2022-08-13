@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/ww/celery_linux_system_note/code/core_test/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/core_test.dir/main.cpp.o -c /home/ww/celery_linux_system_note/code/core_test/main.cpp",
-  "file": "/home/ww/celery_linux_system_note/code/core_test/main.cpp"
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/core_test.dir/main.c.o   -c /home/ww/celery_linux_system_note/code/core_test/main.c",
+  "file": "/home/ww/celery_linux_system_note/code/core_test/main.c"
+},
+{
+  "directory": "/home/ww/celery_linux_system_note/code/core_test/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/core_test.dir/relayer.c.o   -c /home/ww/celery_linux_system_note/code/core_test/relayer.c",
+  "file": "/home/ww/celery_linux_system_note/code/core_test/relayer.c"
 }
 ]

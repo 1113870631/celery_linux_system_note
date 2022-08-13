@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ww/celery_linux_system_note/socket/UDP/server/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/UDP.dir/main.c.o   -c /home/ww/celery_linux_system_note/socket/UDP/server/main.c",
+  "file": "/home/ww/celery_linux_system_note/socket/UDP/server/main.c"
+}
+]

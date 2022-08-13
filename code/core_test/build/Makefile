@@ -520,32 +520,59 @@ ExperimentalBuild/fast:
 	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
-main.o: main.cpp.o
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.c.s
+.PHONY : main.c.s
+
+relayer.o: relayer.c.o
+
+.PHONY : relayer.o
+
+# target to build an object file
+relayer.c.o:
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/relayer.c.o
+.PHONY : relayer.c.o
+
+relayer.i: relayer.c.i
+
+.PHONY : relayer.i
+
+# target to preprocess a source file
+relayer.c.i:
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/relayer.c.i
+.PHONY : relayer.c.i
+
+relayer.s: relayer.c.s
+
+.PHONY : relayer.s
+
+# target to generate assembly for a file
+relayer.c.s:
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/relayer.c.s
+.PHONY : relayer.c.s
 
 # Help Target
 help:
@@ -590,6 +617,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... relayer.o"
+	@echo "... relayer.i"
+	@echo "... relayer.s"
 .PHONY : help
 
 

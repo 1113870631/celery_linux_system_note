@@ -57,41 +57,67 @@ include CMakeFiles/core_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core_test.dir/flags.make
 
-CMakeFiles/core_test.dir/main.cpp.o: CMakeFiles/core_test.dir/flags.make
-CMakeFiles/core_test.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ww/celery_linux_system_note/code/core_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core_test.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core_test.dir/main.cpp.o -c /home/ww/celery_linux_system_note/code/core_test/main.cpp
+CMakeFiles/core_test.dir/main.c.o: CMakeFiles/core_test.dir/flags.make
+CMakeFiles/core_test.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ww/celery_linux_system_note/code/core_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/core_test.dir/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/core_test.dir/main.c.o   -c /home/ww/celery_linux_system_note/code/core_test/main.c
 
-CMakeFiles/core_test.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core_test.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ww/celery_linux_system_note/code/core_test/main.cpp > CMakeFiles/core_test.dir/main.cpp.i
+CMakeFiles/core_test.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/core_test.dir/main.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ww/celery_linux_system_note/code/core_test/main.c > CMakeFiles/core_test.dir/main.c.i
 
-CMakeFiles/core_test.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core_test.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ww/celery_linux_system_note/code/core_test/main.cpp -o CMakeFiles/core_test.dir/main.cpp.s
+CMakeFiles/core_test.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/core_test.dir/main.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ww/celery_linux_system_note/code/core_test/main.c -o CMakeFiles/core_test.dir/main.c.s
 
-CMakeFiles/core_test.dir/main.cpp.o.requires:
+CMakeFiles/core_test.dir/main.c.o.requires:
 
-.PHONY : CMakeFiles/core_test.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/core_test.dir/main.c.o.requires
 
-CMakeFiles/core_test.dir/main.cpp.o.provides: CMakeFiles/core_test.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/core_test.dir/main.cpp.o.provides
+CMakeFiles/core_test.dir/main.c.o.provides: CMakeFiles/core_test.dir/main.c.o.requires
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/main.c.o.provides.build
+.PHONY : CMakeFiles/core_test.dir/main.c.o.provides
 
-CMakeFiles/core_test.dir/main.cpp.o.provides.build: CMakeFiles/core_test.dir/main.cpp.o
+CMakeFiles/core_test.dir/main.c.o.provides.build: CMakeFiles/core_test.dir/main.c.o
+
+
+CMakeFiles/core_test.dir/relayer.c.o: CMakeFiles/core_test.dir/flags.make
+CMakeFiles/core_test.dir/relayer.c.o: ../relayer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ww/celery_linux_system_note/code/core_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/core_test.dir/relayer.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/core_test.dir/relayer.c.o   -c /home/ww/celery_linux_system_note/code/core_test/relayer.c
+
+CMakeFiles/core_test.dir/relayer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/core_test.dir/relayer.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ww/celery_linux_system_note/code/core_test/relayer.c > CMakeFiles/core_test.dir/relayer.c.i
+
+CMakeFiles/core_test.dir/relayer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/core_test.dir/relayer.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ww/celery_linux_system_note/code/core_test/relayer.c -o CMakeFiles/core_test.dir/relayer.c.s
+
+CMakeFiles/core_test.dir/relayer.c.o.requires:
+
+.PHONY : CMakeFiles/core_test.dir/relayer.c.o.requires
+
+CMakeFiles/core_test.dir/relayer.c.o.provides: CMakeFiles/core_test.dir/relayer.c.o.requires
+	$(MAKE) -f CMakeFiles/core_test.dir/build.make CMakeFiles/core_test.dir/relayer.c.o.provides.build
+.PHONY : CMakeFiles/core_test.dir/relayer.c.o.provides
+
+CMakeFiles/core_test.dir/relayer.c.o.provides.build: CMakeFiles/core_test.dir/relayer.c.o
 
 
 # Object files for target core_test
 core_test_OBJECTS = \
-"CMakeFiles/core_test.dir/main.cpp.o"
+"CMakeFiles/core_test.dir/main.c.o" \
+"CMakeFiles/core_test.dir/relayer.c.o"
 
 # External object files for target core_test
 core_test_EXTERNAL_OBJECTS =
 
-core_test: CMakeFiles/core_test.dir/main.cpp.o
+core_test: CMakeFiles/core_test.dir/main.c.o
+core_test: CMakeFiles/core_test.dir/relayer.c.o
 core_test: CMakeFiles/core_test.dir/build.make
 core_test: CMakeFiles/core_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ww/celery_linux_system_note/code/core_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable core_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ww/celery_linux_system_note/code/core_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable core_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/core_test.dir/build: core_test
 
 .PHONY : CMakeFiles/core_test.dir/build
 
-CMakeFiles/core_test.dir/requires: CMakeFiles/core_test.dir/main.cpp.o.requires
+CMakeFiles/core_test.dir/requires: CMakeFiles/core_test.dir/main.c.o.requires
+CMakeFiles/core_test.dir/requires: CMakeFiles/core_test.dir/relayer.c.o.requires
 
 .PHONY : CMakeFiles/core_test.dir/requires
 
