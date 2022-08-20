@@ -11,9 +11,10 @@
 
 
 #define SERVERPORT "2223"
+#define THREADNUM  3
 
-int FD_ARR[100]={-1};
-pthread_t PID_ARR[100];
+int FD_ARR[THREADNUM]={-1};
+pthread_t PID_ARR[THREADNUM];
 int pos=0;
 
 void* thread_msg_recv(void* args);
@@ -54,6 +55,8 @@ void main(int argc, char** argv)
   
         while(1)
         {
+            while(pos == THREADNUM);
+            
             FD_ARR[pos] = accept(socket_tcp,(void *)&raddr,&addr_len);
                 if(FD_ARR[pos] < 0)
             {
@@ -61,11 +64,11 @@ void main(int argc, char** argv)
                 exit(0);
             }
             /*子线程 并发*/
-            printf("thread %d",pos);
+            printf("thread %d   ",pos);
             if(pthread_create(&PID_ARR[pos],NULL,thread_msg_recv,&FD_ARR[pos]) == 0)
             {
+                printf("  pos:%d\n",pos);
                 pos++;
-                printf("pos:%d\n",pos);
             };
         }
 }
@@ -83,10 +86,10 @@ void* thread_msg_recv(void* args)
        int tmp = recv(*fd,buf,10,0);
         if(tmp < 0)
         {
-            printf("recv%d\n",*fd);
+            printf("recv err %d \n",*fd);
             exit(0);
         }
-       printf("%lx:%s\n",*fd,buf);
+       printf("%lx:  %s\n",*fd,buf);
 
     }
  

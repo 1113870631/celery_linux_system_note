@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define SERVERPORT "2223"
+#define SERVERPORT "6688"
 
 void main(int argc, char** argv)
 {
@@ -28,7 +28,7 @@ void main(int argc, char** argv)
 
     raddr.sin_family = AF_INET;
     raddr.sin_port = htons(atoi(SERVERPORT));
-    inet_pton(AF_INET, "192.168.155.199", &raddr.sin_addr);
+    inet_pton(AF_INET, "127.0.0.1", &raddr.sin_addr);
 
     addrlen = sizeof(raddr);
     

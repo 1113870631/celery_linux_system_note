@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/myserver.dir/main.c.o CMakeFiles/myserver.dir/thread.c.o  -o myserver 

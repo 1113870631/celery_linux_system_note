@@ -9,7 +9,7 @@
 #include <string.h>
 
 
-#define SERVERPORT "2333"
+#define SERVERPORT "6688"
 
  struct test_msg 
  {
@@ -17,6 +17,7 @@
     u_int8_t    name[31];
  };
  
+ char MSG[]={'1','3','\n','\0'};
 
 void main(int argc , char** argv) {
 
@@ -33,7 +34,7 @@ void main(int argc , char** argv) {
         printf("socket fail\n");
         exit(0);
      }
-     inet_pton(AF_INET, "192.168.155.199", &addr_r.sin_addr);
+     inet_pton(AF_INET, "127.0.0.1", &addr_r.sin_addr);
      addr_r.sin_family = AF_INET;
      addr_r.sin_port = (htons(atoi(SERVERPORT)));
 
@@ -43,7 +44,7 @@ void main(int argc , char** argv) {
     addrlen = sizeof(addr_r);
     while(1)
     {
-         if(sendto(socket_udp, &test1, sizeof(test1), 0, (struct sockaddr*)&addr_r,addrlen) < 0)
+         if(sendto(socket_udp,MSG, sizeof(MSG), 0, (struct sockaddr*)&addr_r,addrlen) < 0)
          {
             printf("send err\n");
             exit(0);

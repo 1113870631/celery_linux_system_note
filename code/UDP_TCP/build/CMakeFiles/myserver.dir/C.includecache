@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ww/celery_linux_system_note/code/UDP_TCP/main.c
+stdio.h
+-
+thread.h
+/home/ww/celery_linux_system_note/code/UDP_TCP/thread.h
+
+/home/ww/celery_linux_system_note/code/UDP_TCP/thread.c
+stdio.h
+-
+pthread.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netinet/ip.h
+-
+arpa/inet.h
+-
+sys/select.h
+-
+stdlib.h
+-
+sys/time.h
+-
+sys/types.h
+-
+unistd.h
+-
+string.h
+-
+
+/home/ww/celery_linux_system_note/code/UDP_TCP/thread.h
+

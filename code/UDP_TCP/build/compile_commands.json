@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ww/celery_linux_system_note/code/UDP_TCP/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/myserver.dir/main.c.o   -c /home/ww/celery_linux_system_note/code/UDP_TCP/main.c",
+  "file": "/home/ww/celery_linux_system_note/code/UDP_TCP/main.c"
+},
+{
+  "directory": "/home/ww/celery_linux_system_note/code/UDP_TCP/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/myserver.dir/thread.c.o   -c /home/ww/celery_linux_system_note/code/UDP_TCP/thread.c",
+  "file": "/home/ww/celery_linux_system_note/code/UDP_TCP/thread.c"
+}
+]
