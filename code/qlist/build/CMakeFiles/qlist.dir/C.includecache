@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ww/celery_linux_system_note/code/qlist/main.c
+stdio.h
+-
+qlist.h
+/home/ww/celery_linux_system_note/code/qlist/qlist.h
+
+/home/ww/celery_linux_system_note/code/qlist/qlist.c
+stdio.h
+-
+stdlib.h
+-
+qlist.h
+/home/ww/celery_linux_system_note/code/qlist/qlist.h
+
+/home/ww/celery_linux_system_note/code/qlist/qlist.h
+

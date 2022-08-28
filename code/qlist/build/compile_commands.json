@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ww/celery_linux_system_note/code/qlist/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/qlist.dir/main.c.o   -c /home/ww/celery_linux_system_note/code/qlist/main.c",
+  "file": "/home/ww/celery_linux_system_note/code/qlist/main.c"
+},
+{
+  "directory": "/home/ww/celery_linux_system_note/code/qlist/build",
+  "command": "/usr/bin/gcc   -g   -o CMakeFiles/qlist.dir/qlist.c.o   -c /home/ww/celery_linux_system_note/code/qlist/qlist.c",
+  "file": "/home/ww/celery_linux_system_note/code/qlist/qlist.c"
+}
+]

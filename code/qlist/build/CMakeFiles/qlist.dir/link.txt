@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/qlist.dir/main.c.o CMakeFiles/qlist.dir/qlist.c.o  -o qlist 

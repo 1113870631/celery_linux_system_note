@@ -36,11 +36,9 @@ void main(int argc, char** argv)
     {
         perror("connect:");
     };
-    while(1)
-    {
+
         send(socket_tcp,buf,sizeof(buf), 0);
-        sleep(1);
-    }
-    
+        close(socket_tcp);
+
     return;
 }

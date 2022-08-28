@@ -65,7 +65,7 @@ void * thread_task(void *pdata)
         }
 
         ret = select(MAX_FD(Fd_Arr,SOCKET_NUM)+1, &readfds, NULL, NULL,NULL);
-        printf("select ok\n");
+        //printf("select ok\n");
         if(ret < 0)
         {
             perror("select:");
